@@ -1,0 +1,137 @@
+17-Feb-2020 19:33:58.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.5
+17-Feb-2020 19:33:58.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 21:42:23 UTC
+17-Feb-2020 19:33:58.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.5.0
+17-Feb-2020 19:33:58.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+17-Feb-2020 19:33:58.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.3.0-28-generic
+17-Feb-2020 19:33:58.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Feb-2020 19:33:58.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+17-Feb-2020 19:33:58.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu118.04.1
+17-Feb-2020 19:33:58.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+17-Feb-2020 19:33:58.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /pti/apache-tomcat-9.0.5
+17-Feb-2020 19:33:58.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /pti/apache-tomcat-9.0.5
+17-Feb-2020 19:33:58.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Feb-2020 19:33:58.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Feb-2020 19:33:58.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/pti/apache-tomcat-9.0.5/conf/logging.properties
+17-Feb-2020 19:33:58.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Feb-2020 19:33:58.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Feb-2020 19:33:58.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Feb-2020 19:33:58.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Feb-2020 19:33:58.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/pti/apache-tomcat-9.0.5
+17-Feb-2020 19:33:58.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/pti/apache-tomcat-9.0.5
+17-Feb-2020 19:33:58.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/pti/apache-tomcat-9.0.5/temp
+17-Feb-2020 19:33:58.728 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+17-Feb-2020 19:33:58.755 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Feb-2020 19:33:58.773 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Feb-2020 19:33:58.779 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Feb-2020 19:33:58.780 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Feb-2020 19:33:58.793 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 517 ms
+17-Feb-2020 19:33:58.851 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Feb-2020 19:33:58.852 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.5
+17-Feb-2020 19:33:58.858 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/pti/apache-tomcat-9.0.5/webapps/ROOT]
+17-Feb-2020 19:33:59.140 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/pti/apache-tomcat-9.0.5/webapps/ROOT] has finished in [282] ms
+17-Feb-2020 19:33:59.141 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/pti/apache-tomcat-9.0.5/webapps/docs]
+17-Feb-2020 19:33:59.157 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/pti/apache-tomcat-9.0.5/webapps/docs] has finished in [16] ms
+17-Feb-2020 19:33:59.157 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/pti/apache-tomcat-9.0.5/webapps/host-manager]
+17-Feb-2020 19:33:59.184 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/pti/apache-tomcat-9.0.5/webapps/host-manager] has finished in [27] ms
+17-Feb-2020 19:33:59.184 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/pti/apache-tomcat-9.0.5/webapps/my_webapp]
+17-Feb-2020 19:33:59.237 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 19:33:59.244 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/pti/apache-tomcat-9.0.5/webapps/my_webapp] has finished in [60] ms
+17-Feb-2020 19:33:59.245 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/pti/apache-tomcat-9.0.5/webapps/examples]
+17-Feb-2020 19:33:59.431 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/pti/apache-tomcat-9.0.5/webapps/examples] has finished in [185] ms
+17-Feb-2020 19:33:59.431 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/pti/apache-tomcat-9.0.5/webapps/manager]
+17-Feb-2020 19:33:59.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/pti/apache-tomcat-9.0.5/webapps/manager] has finished in [16] ms
+17-Feb-2020 19:33:59.449 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Feb-2020 19:33:59.457 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Feb-2020 19:33:59.464 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 669 ms
+17-Feb-2020 19:39:19.637 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+17-Feb-2020 19:39:19.682 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 19:39:19.684 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+17-Feb-2020 19:40:59.729 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+17-Feb-2020 19:40:59.749 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 19:40:59.751 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+17-Feb-2020 19:41:29.765 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+17-Feb-2020 19:41:29.790 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 19:41:29.791 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+17-Feb-2020 19:41:49.800 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+17-Feb-2020 19:41:49.824 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 19:41:49.825 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+17-Feb-2020 19:42:09.835 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+17-Feb-2020 19:42:09.859 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 19:42:09.861 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+17-Feb-2020 19:44:49.931 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+17-Feb-2020 19:44:49.953 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 19:44:49.955 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+17-Feb-2020 19:45:29.970 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+17-Feb-2020 19:45:29.971 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [list]
+17-Feb-2020 19:45:30.973 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [list]
+17-Feb-2020 19:45:31.974 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [list]
+17-Feb-2020 19:45:32.078 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [my_webapp] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ mypackage.CarRentalList.doGet(CarRentalList.java:37)
+ mypackage.CarRentalList.doPost(CarRentalList.java:57)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:409)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.base@11.0.6/java.lang.Thread.run(Thread.java:834)]
+17-Feb-2020 19:45:32.098 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 19:45:32.100 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+17-Feb-2020 19:46:32.127 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+17-Feb-2020 19:46:32.143 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 19:46:32.145 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+17-Feb-2020 19:46:52.152 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+17-Feb-2020 19:46:52.169 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 19:46:52.170 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+17-Feb-2020 20:08:52.626 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+17-Feb-2020 20:08:52.645 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 20:08:52.647 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+17-Feb-2020 20:09:22.655 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+17-Feb-2020 20:09:22.672 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 20:09:22.673 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+17-Feb-2020 20:09:52.684 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+17-Feb-2020 20:09:52.700 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 20:09:52.701 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+17-Feb-2020 20:10:52.720 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+17-Feb-2020 20:10:52.740 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 20:10:52.742 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+17-Feb-2020 20:11:12.747 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+17-Feb-2020 20:11:12.762 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 20:11:12.763 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+17-Feb-2020 20:11:22.765 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+17-Feb-2020 20:11:22.784 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 20:11:22.785 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+17-Feb-2020 20:11:42.789 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+17-Feb-2020 20:11:42.812 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 20:11:42.813 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+17-Feb-2020 20:12:12.823 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+17-Feb-2020 20:12:12.840 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 20:12:12.841 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+17-Feb-2020 20:12:32.848 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+17-Feb-2020 20:12:32.862 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 20:12:32.863 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+17-Feb-2020 20:13:02.872 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+17-Feb-2020 20:13:02.889 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 20:13:02.891 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+17-Feb-2020 20:15:12.928 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+17-Feb-2020 20:15:12.945 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 20:15:12.946 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+17-Feb-2020 20:15:52.961 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+17-Feb-2020 20:15:52.979 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Feb-2020 20:15:52.980 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
