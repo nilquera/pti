@@ -48,11 +48,11 @@ public class CarRentalNew extends HttpServlet {
 
     JSONParser parser = new JSONParser();
 
-    try (Reader reader = new FileReader("/pti/apache-tomcat-9.0.5/webapps/my_webapp/rental_list.json")){
+    try (Reader reader = new FileReader("./webapps/my_webapp/rental_list.json")){
     	JSONArray rental_list = (JSONArray) parser.parse(reader);
     	rental_list.add(new_rental);
 
-    	try (FileWriter file = new FileWriter("/pti/apache-tomcat-9.0.5/webapps/my_webapp/rental_list.json")) {
+    	try (FileWriter file = new FileWriter("./webapps/my_webapp/rental_list.json")) {
             file.write(rental_list.toJSONString());
         } catch (IOException e) {
             e.printStackTrace();

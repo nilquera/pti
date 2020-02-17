@@ -26,7 +26,7 @@ public class CarRentalList extends HttpServlet {
     cont ++;
 
 	JSONParser parser = new JSONParser();
-	try (Reader reader = new FileReader("/pti/apache-tomcat-9.0.5/webapps/my_webapp/rental_list.json")) {
+	try (Reader reader = new FileReader("./webapps/my_webapp/rental_list.json")) {
 		JSONArray rental_list = (JSONArray) parser.parse(reader);
 
     	out.println("<html><big>Hola Amigo "+ nombre + "</big><br>"+
