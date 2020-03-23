@@ -1,0 +1,29 @@
+#!/bin/bash
+
+echo "Generating key pair... (CSR for CA)"
+sleep 1
+openssl req -new -extensions v3_ca -keyout ssl.key/ca_key.pem -out ssl.csr/ca_cert-req.pem
+
+echo "Issuing the CA certificate from the pending request..."
+sleep 1
+openssl req -new -x509 -in ssl.csr/ca_cert-req.pem -out ssl.crt/ca_cert.crt -days 365 -key ssl.key/ca_key.pem
+
+echo "Issuing the certificate request for the server..."
+sleep 1
+openssl req -new -extensions v3_req -keyout ssl.key/server_key.pem -out ssl.csr/server_cert-req.pem
+
+echo "Issuing the certificate from the pending server request..."
+sleep 1
+openssl x509 -req -in ssl.csr/server_cert-req.pem -out ssl.crt/server_cert.crt -days 365 -CA ssl.crt/ca_cert.crt -CAkey ssl.key/ca_key.pem -CAcreateserial
+
+echo "Issuing a cert request for the user to authenticate against the server..."
+sleep 1
+openssl req -new -extensions v3_req -keyout ssl.key/client_key.pem -out ssl.csr/client_cert-req.pem
+
+echo "Issuing the client certificate from pending client request..."
+sleep 1
+openssl x509 -req -in ssl.csr/client_cert-req.pem -out ssl.crt/client_cert.crt -days 365 -CA ssl.crt/ca_cert.crt -CAkey ssl.key/ca_key.pem -CAcreateserial
+
+echo "Exporting usert certificate and its private key..."
+sleep 1
+openssl pkcs12 -export -in ssl.crt/client_cert.crt -inkey ssl.key/client_key.pem -out client_cert.p12 -name "clientCert"
